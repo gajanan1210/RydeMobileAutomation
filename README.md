@@ -1,4 +1,4 @@
-# Ryde Mobile Automation Code README
+# Ryde Mobile Automation README
 
 ## Overview
 This repository contains the mobile automation code for testing the login functionality of the user registration process on the Ryde Rider mobile app. The tests are implemented using Selenium with an Android virtual device.
