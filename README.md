@@ -14,6 +14,14 @@ To run the tests, you need to set up the following:
    - Install Appium server.
    - Start the Appium server.
 
+## Project Structure
+
+The project follows a standard Maven directory structure:
+
+The `LoginTest.java` class file, responsible for testing the login functionality of the Ryde Rider mobile application, is located at the following path:
+
+RydeMobileAutomation/src/test/java/Mobile/LoginTest.java
+
 ## Test Scenario
 The test scenario implemented in this code covers the following steps:
 
