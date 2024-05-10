@@ -1,7 +1,7 @@
-# Ryde Mobile Automation README
+# Ryde Mobile Automation Code README
 
 ## Overview
-This repository contains the mobile automation code for testing the login functionality of the user registration process on the Ryde Rider mobile app. The tests are implemented using Selenium with an Android virtual device.
+This repository contains the mobile automation code for testing the login functionality of the user registration process on the Ryde Rider mobile app. The tests are implemented using Selenium and Appium with an Android virtual device.
 
 ## Setup
 To run the tests, you need to set up the following:
@@ -13,14 +13,18 @@ To run the tests, you need to set up the following:
 2. **Appium Server:**
    - Install Appium server.
    - Start the Appium server.
+ 
+3. **Ensure Application APK File:**
 
-## Project Structure
+   Ensure that the application APK file is available and accessible to the test script.
 
-The project follows a standard Maven directory structure:
+4. **Download and Install Eclipse:**
 
-The `LoginTest.java` class file, responsible for testing the login functionality of the Ryde Rider mobile application, is located at the following path:
+   Download and install Eclipse IDE
 
-RydeMobileAutomation/src/test/java/Mobile/LoginTest.java
+5. **Clone or Download the Project from Git:**
+
+Clone the project repository from Git or download the code as a zip file and extract it to your local system.
 
 ## Test Scenario
 The test scenario implemented in this code covers the following steps:
@@ -43,8 +47,27 @@ To run the tests, follow these steps:
 1. **Start Appium Server:**
    - Start the Appium server.
 
-2. **Run Test Script:**
-   - Execute the test script using your preferred IDE.
+2. **Create a Virtual Device in Android Studio:**
+   - Open Android Studio.
+   - Go to "Tools" > "Device Manager".
+   - Select "Virtual" option and click on "Create Device".
+   - Select "Pixel" from the list of available devices and click "Next".
+   - Choose a system image with Android 9.0 (Pie) and download it if necessary.
+   - Follow the prompts to set up the virtual device and click "Finish".
+
+3. **Import the Project into Eclipse:**
+   - Open Eclipse IDE and import the project you downloaded:
+     - Go to "File" > "Import".
+     - Choose "Existing Projects into Workspace" under the "General" category.
+     - Click "Next" and then "Browse" to locate the root directory of the project.
+     - Select the project folder and click "Finish" to import it into Eclipse.
+   
+
+4. **Run the Tests:**
+   - In Eclipse, navigate to the test file (`LoginTest.java`).
+   - Right-click on the file and select "Run As" > "Java Application".
+   - This will execute the tests, and you should see the test results in the console.
+
 
 ## Notes
 - Make sure the virtual device is running and visible to the Appium server.
