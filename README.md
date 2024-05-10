@@ -56,11 +56,11 @@ To run the tests, follow these steps:
    - Follow the prompts to set up the virtual device and click "Finish".
 
 3. **Import the Project into Eclipse:**
-   - Open Eclipse IDE and import the project you downloaded:
-     - Go to "File" > "Import".
-     - Choose "Existing Projects into Workspace" under the "General" category.
-     - Click "Next" and then "Browse" to locate the root directory of the project.
-     - Select the project folder and click "Finish" to import it into Eclipse.
+   - Open Eclipse IDE and import the project you downloaded
+    - In the IDE, navigate to "File" > "Import".
+    - Choose "Existing Maven Projects" under the "Maven" category.
+    - Click "Next" and then "Browse" to locate the root directory of the project.
+    - Select the project folder and click "Finish" to import it as a Maven project into your IDE.
    
 
 4. **Run the Tests:**
