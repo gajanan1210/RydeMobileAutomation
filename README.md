@@ -18,9 +18,9 @@ To run the tests, you need to set up the following:
 
    Ensure that the application APK file is available and accessible to the test script.
 
-4. **Download and Install Eclipse:**
+4. **Java & Eclipse:**
 
-   Download and install Eclipse IDE
+   Download and install Java and Eclipse IDE
 
 5. **Clone or Download the Project from Git:**
 
