@@ -26,6 +26,12 @@ To run the tests, you need to set up the following:
 
 Clone the project repository from Git or download the code as a zip file and extract it to your local system.
 
+## Project Structure
+The project follows a standard Maven directory structure:
+
+The class files, responsible for testing the functionality of the Login functionality is located at the following path:
+RydeMobileAutomation/src/test/java/Mobile/
+
 ## Test Scenario
 The test scenario implemented in this code covers the following steps:
 
@@ -65,6 +71,8 @@ To run the tests, follow these steps:
 
 4. **Run the Tests:**
    - In Eclipse, navigate to the test file (`LoginTest.java`).
+     
+   This files is located under the `RydeMobileAutomation/src/test/java/Mobile/` directory, as specified in the project structure.
    - Right-click on the file and select "Run As" > "Java Application".
    - This will execute the tests, and you should see the test results in the console.
 
