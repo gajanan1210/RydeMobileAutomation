@@ -76,10 +76,10 @@ public class LoginTest {
 			char digit = userotp.charAt(i);
 			// Convert character to integer value
 			int keyCode = digit - '0';
-			// Simulate pressing the corresponding key code for the digit
+			
 			driver.pressKey(new KeyEvent(AndroidKey.valueOf("DIGIT_" + keyCode)));
 			// Add a short delay between pressing each digit
-			Thread.sleep(500); // Adjust the sleep duration as needed
+			Thread.sleep(500); 
 		}
 
 		// Enter the OTP into the input field
